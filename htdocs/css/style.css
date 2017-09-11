@@ -1,4 +1,16 @@
 .logo-side {
     border: 1px dashed black;
-    border-radius: 50%;    
+    border-radius: 50%;
+    margin:2%;
+    float: left;
+}
+body {
+    background-repeat: repeat;
+}
+
+.byline-img {
+    border: 1px dashed black;
+    border-radius: 50%;
+    width: 10%;
+    padding: 5px;
 }
