@@ -18,7 +18,7 @@ return [
             "lang"          => "sv",
             "charset"       => "utf-8",
             "title_append"  => " | Anax Flat",
-            "favicon"       => "img/favicon/favicon_256x256.png",
+            "favicon"       => "img/favvo250x250.png",
 
             // Style and stylesheets
             "stylesheets" => ["css/default.min.css", "css/style.css"],
@@ -40,7 +40,7 @@ return [
             "template" => "default/image",
             "data" => [
                 "class" => "logo-1",
-                "src" => "img/favicon/favicon_128x128.png",
+                "src" => "img/favvo250x250.png",
                 "alt" => "Logo",
             ],
             "sort" => 1

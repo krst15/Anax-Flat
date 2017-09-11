@@ -9,4 +9,4 @@ The source for this site is available on GitHub in [canax/anax-flat](git@github.
 
 This site is produced by [Mikael Roos](https://mikaelroos.se) (mos@dbwebb.se).
 
-Edited by student [Kristoffer Sten](har_ingen_hemsida).
+Edited by student [Kristoffer Sten](https://github.com/krst15/Anax-Flat) (github repo).
