@@ -18,12 +18,10 @@ return [
             "lang"          => "sv",
             "charset"       => "utf-8",
             "title_append"  => " | Anax Flat",
-            "favicon"       => "img/favvo250x250.png",
-            "background" => "img/background/background.png",
+            "favicon"       => "img/favicon/favicon_256x256.png",
 
             // Style and stylesheets
             "stylesheets" => ["css/default.min.css", "css/style.css"],
-
             "styleInline" => null,
 
             // JavaScript
@@ -41,8 +39,8 @@ return [
             "region" => "header",
             "template" => "default/image",
             "data" => [
-                "class" => "logo-side",
-                "src" => "img/favvo250x250.png",
+                "class" => "logo-1",
+                "src" => "img/favicon/favicon_128x128.png",
                 "alt" => "Logo",
             ],
             "sort" => 1
