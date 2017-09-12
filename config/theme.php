@@ -21,11 +21,14 @@ return [
             "favicon"       => "img/favvo250x250.png",
 
             // Style and stylesheets
-            "stylesheets" => ["css/default.min.css", "css/style.css"],
+            "stylesheets" => ["css/style.min.css",
+            "css/style.css",
+            "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"],
             "styleInline" => null,
 
             // JavaScript
-            "javascripts" => [],
+            //"javascripts" => [],
+            "javascripts" => ["js/responsive-menu.js"],
         ],
     ],
 
@@ -37,21 +40,11 @@ return [
     "views" => [
         [
             "region" => "header",
-            "template" => "default/image",
-            "data" => [
-                "class" => "logo-1",
-                "src" => "img/favvo250x250.png",
-                "alt" => "Logo",
-            ],
-            "sort" => 1
-        ],
-        [
-            "region" => "header",
             "template" => "default/header",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "Anax Flat",
-                "siteLogoTextIcon" => "img/favicon/favicon_40x40.png",
+                "siteLogoText"  => "",
+                "siteLogoTextIcon" => "img/chair100x100.png",
                 "siteLogoTextIconAlt" => "Small logo",
                 "siteLogo"      => null, //"img/anax.png",
                 "siteLogoAlt"   => null, //"Anax Logo",
@@ -60,14 +53,14 @@ return [
             ],
             "sort" => 2
         ],
-/*
+
         [
             "region" => "profile",
             "template" => "default/navbar-max",
             "data" => [],
             "sort" => -1
         ],
-*/
+
         [
             "region" => "navbar2",
             "template" => "default/navbar",
