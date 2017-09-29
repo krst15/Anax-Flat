@@ -22,12 +22,11 @@ return [
 
             // Style and stylesheets
             "stylesheets" => ["css/style.min.css",
-            "css/style.css",
             "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"],
             "styleInline" => null,
 
             // JavaScript
-            //"javascripts" => [],
+            // "javascripts" => [],
             "javascripts" => ["js/responsive-menu.js"],
         ],
     ],
@@ -38,15 +37,27 @@ return [
      * Add default views to always include.
      */
     "views" => [
+
+        [
+            "region" => "header",
+            "template" => "default/image",
+            "data" => [
+                "class" => "logo-1",
+                "src" => "img/chair100x100.png",
+                "alt" => "Logo",
+            ],
+            "sort" => 1
+        ],
+
         [
             "region" => "header",
             "template" => "default/header",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "",
-                "siteLogoTextIcon" => "img/chair100x100.png",
-                "siteLogoTextIconAlt" => "Small logo",
-                "siteLogo"      => null, //"img/anax.png",
+                "siteLogoText"  => "Anax-Flat",
+                "siteLogoTextIconAlt" => "",
+                "siteLogoTextIcon" => "",
+                "siteLogo"      => "img/chair100x100.png", //"img/anax.png",
                 "siteLogoAlt"   => null, //"Anax Logo",
                 "siteTitle"     => null, //"Anax PHP framework",
                 "siteSlogan"    => null, //"Reusable modules for web development"
@@ -91,7 +102,7 @@ return [
             "template" => "default/block",
             "data" => [
                 "class" => "site-footer",
-                "contentRoute" => "block/footer",
+                "contentRoute" => "block/byline",
             ],
             "sort" => 2
         ],
