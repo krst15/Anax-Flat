@@ -21,8 +21,9 @@ return [
             "favicon"       => "img/favvo250x250.png",
 
             // Style and stylesheets
-            "stylesheets" => ["css/style.min.css",
-            "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"],
+            "stylesheets" => ["css/modules.min.css",
+            "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+        ],
             "styleInline" => null,
 
             // JavaScript
@@ -37,17 +38,6 @@ return [
      * Add default views to always include.
      */
     "views" => [
-
-        [
-            "region" => "header",
-            "template" => "default/image",
-            "data" => [
-                "class" => "logo-1",
-                "src" => "img/chair100x100.png",
-                "alt" => "Logo",
-            ],
-            "sort" => 1
-        ],
 
         [
             "region" => "header",
