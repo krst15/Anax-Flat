@@ -91,6 +91,11 @@ return [
                 "url" => $this->di->get("url")->create("typography"),
                 "title" => t("Showing off typography")
             ],
+            "theme" => [
+                "text" => t("Themes"),
+                "url" => $this->di->get("url")->create("theme"),
+                "title" => t("What are them meaning of the themes")
+            ],
         ],
     ],
 
